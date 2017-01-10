@@ -1,0 +1,73 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  color: #fff;
+  font-family: Georgia, serif;
+}
+
+body {
+  background-color: #495562;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  background-image: linear-gradient(to top, rgba(73, 85, 98, .9), transparent);
+}
+
+.banner-txt {
+
+  max-width: 42em;
+  color: #fff;
+  width: 100%;
+
+}
+
+.btn {
+
+  border-color: #97a49b;
+  color: #fff;
+
+}
+
+.btn:hover {
+
+  color: #efefef;
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-cont {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(73, 85, 98, 0), rgba(73, 85, 98, 1));
+    width: 100%;
+
+  }
+
+  .btn {
+
+    float: right;
+
+  }
+
+  .banner-txt {
+
+    max-width: 50em;
+
+  }
+
+  .banner {
+    max-height: 500px;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+}
